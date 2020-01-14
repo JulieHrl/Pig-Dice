@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: indianred;
+}
+
+.entete{
+    text-align: center;
+}
+
+#pigface {
+    height:100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+#newGame {
+    text-decoration: none;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.container{
+    display: inline-block;
+    display: flex;
+}
+
+.players {
+        width: 45%;
+        float: left;
+        height: auto;
+        padding: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        border-radius: 50%;
+}
+
+h3 {
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 20px;
+}
+
+.current {
+    font-size: 20px;
+    color: antiquewhite;
+    margin: 20px;
+}
+
+.colcenter {
+    width:10%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.dice {
+    display: block;
+    margin: 20px auto 20px auto;
+    max-width: 70%;
+    max-height: 70%;
+    border: solid 2px black;
+}
+
+.clickables {
+    text-decoration: none;
+    font-size: 40px;
+    color: antiquewhite;
+    margin: 20px;
+}
+
+#total-0, #total-1, #current-score-0, #current-score-1 {
+    font-size: 20px;
+    color: blue;
+    margin: 20px;
+}
+
+#who {
+    font-size: 20px;
+    color: darkred;
+    margin: 20px;
+}

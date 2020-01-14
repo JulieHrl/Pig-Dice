@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="pigface.png" />
+    <link rel="stylesheet" href="pigdice.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <title>PigDice</title>
+</head>
+
+<body>
+    <main>
+        <!--Le div qui contient l'en-tête, l'image, le bouton new game-->
+        <div class="entete">
+            <p><img src="pigface.png" id="pigface">
+                <br> <a id="newGame" class="clickables" href="#">New Game</a></p>
+        </div>
+
+        <!--Le div qui va contenir les 3 parties: les 2 joueurs et la colonne centrale-->
+
+        <div class="container">
+
+        <!--Joueur 1-->
+
+            <div class="players" id="player-0">
+
+                <h3>PLAYER 1</h3>
+
+                <p id="total-0"></p>
+
+                <div id="current-0">
+
+                    <p class="current">Current</p>
+                    <p id="current-score-0"></p>
+
+                </div>
+            </div>
+
+        <!--La colonne du milieu-->
+
+                <div class="colcenter">
+                    <div>
+                        <img class="dice" id="dice1" src="img/dice-1.png">
+                        <img class="dice" id="dice2" src="img/dice-1.png">
+                    </div>
+                    <div><a id="roll" class="clickables" href="#">Roll</a></div>
+                    <div><a id="hold" class="clickables" href="#">Hold</a></div>
+                    <div id="who"></div>
+                </div>
+
+        <!--Joueur 2-->
+
+                <div class="players" id="player-1">
+
+                <h3 id="player-label-1">PLAYER 2</h3>
+
+                <p id="total-1"></p>
+
+                <div id="current-1">
+
+                    <p class="current">Current</p>
+                    <p id="current-score-1"></p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>
